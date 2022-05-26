@@ -1,0 +1,39 @@
+@media(max-width: 425px) {
+    body {
+        background: var(--cor-principal) url('../images/bg-mobile.svg') center bottom no-repeat;
+        background-size: cover;
+        height: 60vh;
+    }
+
+    .header .header-container a img {
+        height: 55%;
+        width: 55%;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .container .item {
+        text-align: center;
+    }
+
+    .container .item h2 {
+        font-size: 1.8rem;
+    }
+
+    .container .item p {
+        font-size: 1.5rem;
+    }
+
+    .container .item .btn-register {
+        align-self: center;
+        padding: 10px 70px;
+    }
+
+    .footer {
+        justify-content: center;
+        align-self: center;
+        margin-bottom: 5px;
+    }
+}
