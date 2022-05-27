@@ -59,7 +59,7 @@ main {
     width: 100%;
 }
 
-.container .item h2 {
+.container .item h1 {
     font-weight: 600;
     font-size: 4rem;
     font-family: 'Poppins', sans-serif;
