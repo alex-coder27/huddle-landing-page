@@ -1,4 +1,4 @@
-@media(max-width: 425px) {
+@media(max-width: 728px) {
     body {
         background: var(--cor-principal) url('../images/bg-mobile.svg') center bottom no-repeat;
         background-size: cover;
@@ -10,25 +10,28 @@
         width: 55%;
     }
 
-    .container {
+    .hero {
         grid-template-columns: 1fr;
     }
 
-    .container .item {
+    .hero .item {
         text-align: center;
     }
 
-    .container .item h1 {
-        font-size: 1.8rem;
+    .hero .item h1 {
+        align-self: center;
+        font-size: 2.5rem;
+        width: 300px;
     }
 
-    .container .item p {
+    .hero .item p {
+        line-height: 2rem;
         font-size: 1.5rem;
     }
 
-    .container .item .btn-register {
+    .hero .item .btn-register {
         align-self: center;
-        padding: 10px 70px;
+        padding: 10px 80px;
     }
 
     .footer {
