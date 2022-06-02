@@ -1,42 +1,91 @@
-@media(max-width: 728px) {
-    body {
-        background: var(--cor-principal) url('../images/bg-mobile.svg') center bottom no-repeat;
-        background-size: cover;
-        height: 60vh;
+@media(max-width: 1024px) {
+    .hero .container img {
+        width: 450px;
+    }
+}
+
+
+@media(max-width: 960px) {
+    .header {
+        padding: 20px;
     }
 
-    .header .header-container a img {
-        height: 55%;
-        width: 55%;
+    .hero .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
-    .hero {
-        grid-template-columns: 1fr;
+
+    .hero .container .info {
+        align-items: center;
+        justify-content: center;
     }
 
-    .hero .item {
+
+    .hero .container .info p {
         text-align: center;
-    }
-
-    .hero .item h1 {
-        align-self: center;
+        line-height: 3.5rem;
         font-size: 2.5rem;
-        width: 300px;
     }
 
-    .hero .item p {
-        line-height: 2rem;
-        font-size: 1.5rem;
-    }
-
-    .hero .item .btn-register {
+    .hero .container .info .btn-register {
         align-self: center;
-        padding: 10px 80px;
+        font-size: 2rem;
+        margin-top: 20px;
+        padding: 14px 90px;
     }
 
     .footer {
+        align-items: center;
         justify-content: center;
-        align-self: center;
-        margin-bottom: 5px;
+        margin-right: 0;
+        margin: 40px 0;
+    }
+
+    .footer .container {
+        justify-content: center;
+    }
+}
+
+@media(max-width:450px) {
+    .header {
+        padding: 20px;
+    }
+
+    .header .container a img {
+        width: 130px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .hero .container img {
+        width: 330px;
+    }
+
+    .hero .container .info h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        width: 330px;
+    }
+
+    .hero .container .info p {
+        line-height: 2.7rem;
+        font-size: 1.8rem;
+        width: 340px;
+    }
+}
+
+@media(max-width: 350px) {
+    .hero .container .info h1 {
+        font-size: 2rem;
+        width: 250px;
+    }
+    .hero .container .info p {
+        font-size: 1.5rem;
+        line-height: 2.3rem;
+        width: 285px;
     }
 }

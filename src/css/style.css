@@ -17,6 +17,7 @@ main {
     max-width: var(--max-width-size);
     width: 100%;
     margin: 0 auto;
+    display: flex;
 }
 
 .header {
@@ -26,7 +27,6 @@ main {
 }
 
 .header .container {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     
@@ -37,7 +37,6 @@ main {
 }
 
 .hero .container {
-    display: flex;
     flex-direction: row;
     gap: 20px;
 }
@@ -52,6 +51,7 @@ main {
     align-content: center;
     color: var(--cor-padrao);
     width: 100%;
+    margin-top: 30px;
 }
 
 .hero .container .info h1 {
@@ -76,7 +76,7 @@ main {
     background-color: var(--cor-padrao);
     color: var(--cor-principal);
     border-radius: 50px;
-    padding: 15px 60px;
+    padding: 14px 60px;
     box-shadow: 0 8px 17px -8px #000000cc;
     transition: 0.3s;
 }
@@ -94,7 +94,6 @@ main {
 }
 
 .footer .container {
-    display: flex;
     justify-content: right;
 }
 
