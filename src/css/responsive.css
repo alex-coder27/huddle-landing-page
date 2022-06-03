@@ -49,6 +49,12 @@
 }
 
 @media(max-width:450px) {
+    body {
+        background: var(--cor-principal) url('../images/bg-mobile.svg') center bottom no-repeat;
+        background-size: cover;
+        height: 60vh;
+    }
+    
     .header {
         padding: 20px;
     }
